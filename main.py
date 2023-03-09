@@ -101,7 +101,7 @@ else:
 
     while True:
         try:
-            chosen_stat = input("Please enter a stat that is important:\n1: Ground Speed\n2: Water Speed\n3: Air Speed\n4: Anti-Gravity Speed\n5: Acceleration\n6: Weight\n7: Ground Handling\n8: Water Handling\n9: Air Handling\n10: Anti-Gravity Handling\n11: Traction\n12: Mini-Turbo\n13: Invincibility\n")
+            chosen_stat = input("Please enter a stat that is important:\n1: Ground Speed\n2: Water Speed\n3: Air Speed\n4: Anti-Gravity Speed\n5: Acceleration\n6: Weight\n7: Ground Handling\n8: Water Handling\n9: Air Handling\n10: Anti-Gravity Handling\n11: Traction\n12: Mini-Turbo\n13: Invincibility\n14: Everything\n")
             stat_index = int(chosen_stat) + 3
             if stat_index > 17 or stat_index < 1:
                 print("Please enter a value in range")
@@ -116,7 +116,7 @@ else:
 
     while True:
         try:
-            chosen_stat = input("Please enter a stat that you want to sort by:\n1: Ground Speed\n2: Water Speed\n3: Air Speed\n4: Anti-Gravity Speed\n5: Acceleration\n6: Weight\n7: Ground Handling\n8: Water Handling\n9: Air Handling\n10: Anti-Gravity Handling\n11: Traction\n12: Mini-Turbo\n13: Invincibility\n")
+            chosen_stat = input("Please enter a stat that you want to sort by:\n1: Ground Speed\n2: Water Speed\n3: Air Speed\n4: Anti-Gravity Speed\n5: Acceleration\n6: Weight\n7: Ground Handling\n8: Water Handling\n9: Air Handling\n10: Anti-Gravity Handling\n11: Traction\n12: Mini-Turbo\n13: Invincibility\n14: Everything\n")
             stat_index = int(chosen_stat) + 3
             if stat_index > 17 or stat_index < 1:
                 print("Please enter a value in range")
